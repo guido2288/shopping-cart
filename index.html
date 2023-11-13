@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');</style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'Pixelify': 'Pixelify Sans',
+            }
+          }
+        }
+      }
+    </script>
+    <title>Pixel Mar  </title>
+</head>
+<body class="bg-[#edf6f9]">
+    <nav class="bg-[#ffddd2] flex justify-between items-center gap-20 py-4">
+        <h2 class="font-Pixelify mx-8 text-2xl text-[#006D77]">Pixel Mart</h2> 
+        <div class="flex items-center gap-8 mx-8 relative">
+          <img src="./Images/credit_card_1.png" alt="credit_card">
+          <div class="absolute left-8 text-[#006D77]">0</div>
+        </div>
+    </nav>
+
+    <script src="./main.js"></script>
+</body>
+</html>
